@@ -1,0 +1,115 @@
+<html lang="en">
+    <head>
+        <title>Capture Tab Audio and process LipSync WebGL!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="author" content="Muaz Khan">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+        <style>
+            audio {
+                vertical-align: bottom;
+                width: 10em;
+            }
+
+            video {
+                max-width: 100%;
+                vertical-align: top;
+            }
+
+            input {
+                border: 1px solid #d9d9d9;
+                border-radius: 1px;
+                font-size: 2em;
+                margin: .2em;
+                width: 30%;
+            }
+
+            p, .inner { padding: 1em; }
+
+            li {
+                border-bottom: 1px solid rgb(189, 189, 189);
+                border-left: 1px solid rgb(189, 189, 189);
+                padding: .5em;
+            }
+
+            label {
+                display: inline-block;
+                width: 8em;
+            }
+
+            p {
+              margin-top: 0!important;
+              margin-bottom: 0!important;
+              padding: 10px 10px!important;
+            }
+
+            blockquote {
+              margin: 10px;
+              border-radius: 10px;
+              background: rgb(253, 253, 253);
+              padding: 8px 20px;
+              font-size: 25px;
+              font-weight: 200;
+              line-height: 1.5;
+              word-spacing: 5px;
+            }
+
+            button {
+              font-size: 25px;
+              font-weight: 200;
+              line-height: 1.5;
+              word-spacing: 5px;
+            }
+
+            section blockquote {
+              color: #EC008C;
+            }
+
+            .specific-h2, h1 {
+              font-size: 35px;
+              font-weight: 200;
+              padding: 5px 10px;
+              border-bottom: 1px dotted #EC008C;
+            }
+
+            .specific-h2 a {
+              color: #EC008C;
+            }
+
+            h1 {
+              font-size: 40px;
+              color: #EC008C;
+            }
+        </style>
+        <script>
+            document.createElement('article');
+            document.createElement('footer');
+        </script>
+
+        <!-- script used to capture sourceId of the screen -->
+
+        <script src="https://localhost:9001/getScreenId.js"> </script>
+    </head>
+
+    <body>
+        <article>
+            <header style="text-align: center;">
+                <h1>
+                    Capture Tab Audio and process LipSync WebGL!!
+                </h1>
+            </header>
+
+
+            <section class="experiment" style="text-align:center;">
+                <br><button id="capture-screen">Capture Your Own Screen</button><hr>
+                <video controls autoplay style="width: 100%;background-repeat: no-repeat;background-size: 100%;background-image: url(https://lh5.googleusercontent.com/6U-gmL_hG9bbquDZdW_ajiA-1bgkfSlHOkzR24aigkyPQzXWXNoRNfyLjXS3rqV92iwq395JSQ=s640-h400-e365-rw);"></video>
+            </section>
+			<script src="https://localhost:9001/mespeak/mespeak/mespeak.js"> </script>
+			<script src="https://localhost:9001/mespeaksynthesizer.js"> </script>
+			<script src="https://localhost:9001/lipsyncprocessing.js"> </script>
+            
+    </body>
+</html>
